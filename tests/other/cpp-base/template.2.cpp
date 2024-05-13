@@ -29,8 +29,5 @@ int main() {
         box.set_value("Hello, d2ds!");
         d2ds_assert(box.get_value() == dstruct::String("Hello, d2ds!"));
     }
-
-    D2DS_WAIT
-
     return 0;
 }

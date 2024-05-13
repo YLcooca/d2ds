@@ -43,7 +43,5 @@ int main() {
 
     d2ds_assert_eq(mVal.get(), maxVal);
 
-    D2DS_WAIT
-
     return 0;
 }
